@@ -3,8 +3,8 @@ import pygame as pg
 pg.init()
 
 despacitoPath = "Despacito.mp3"
-mozzartPath = "DrillRemix.mp3"
-boomPath = "3NBSQ2N-explosions.mp3"
+mozzartPath = "TSIS7_Lab7_mp3_DrillRemix.mp3"
+boomPath = "TSIS7_Lab7_mp3_3NBSQ2N-explosions.mp3"
 sc = pg.display.set_mode((480, 360))
 pg.display.set_caption("ЭМ ПЕ ТРИ ПЛЕЙЕР")
 clock = pg.time.Clock()
