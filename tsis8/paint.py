@@ -11,7 +11,7 @@ win_y = 500
 win = pygame.display.set_mode((win_x, win_y))
 pygame.display.set_caption('Paint')
 
-# Class for drawing
+# Class for drawing 
 class drawing(object):
 
 	def __init__(self):
@@ -112,7 +112,7 @@ def drawHeader(win):
 	# Printing header
 	font = pygame.font.SysFont('comicsans', 30)
 
-	canvasText = font.render('Canvas', 1, (0, 0, 0))
+	canvasText = font.render('Пэйнт', 1, (0, 0, 0))
 	win.blit(canvasText, (int(200 - canvasText.get_width() / 2),
 						int(26 / 2 - canvasText.get_height() / 2) + 2))
 

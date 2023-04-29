@@ -2,18 +2,18 @@ import time
 import pygame as pg
 pg.init()
 
-despacitoPath = "Despacito.mp3"
-mozzartPath = "TSIS7_Lab7_mp3_DrillRemix.mp3"
-boomPath = "TSIS7_Lab7_mp3_3NBSQ2N-explosions.mp3"
+despacitoPath = "/Users/bahauddin/Coding/pp2-22B030598/tsis7/Despacito.mp3"
+mozzartPath = "/Users/bahauddin/Coding/pp2-22B030598/tsis7/m1.mp3"
+boomPath = "/Users/bahauddin/Coding/pp2-22B030598/tsis7/mot.mp3"
 sc = pg.display.set_mode((480, 360))
 pg.display.set_caption("ЭМ ПЕ ТРИ ПЛЕЙЕР")
 clock = pg.time.Clock()
-# mozzart = pg.mixer.music.load(mozzartPath)
-# boom = pg.mixer.music.load(boomPath)
+mozzart = pg.mixer.music.load(mozzartPath)
+boom = pg.mixer.music.load(boomPath)
 despacito = pg.mixer.music.load(despacitoPath)
 musicList = [despacitoPath, mozzartPath, boomPath]
 pg.mixer.music.play(-1)
-monkey = pg.image.load("monkey.jpeg")
+monkey = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis7/monkey.jpeg")
 
 sc.blit(monkey, (0, 0))
 flPlay = False

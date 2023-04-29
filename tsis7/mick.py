@@ -13,13 +13,13 @@ clock = pg.time.Clock()
 
 pg.display.set_caption("Mickey Clock")
 
-sec = pg.image.load("naga12.png").convert_alpha()
-minute = pg.image.load("naga12.png").convert_alpha()
+sec = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis7/naga12.png").convert_alpha()
+minute = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis7/naga12.png").convert_alpha()
 rectsec = sec.get_rect()
 rectmin = minute.get_rect()
 rectmin.center = rectmin.center = midle
 
-background = pg.image.load("clock2.jpg")
+background = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis7/clock2.jpg")
 run =True
 
 angle1 = 0

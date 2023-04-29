@@ -17,45 +17,45 @@ POWDERBLUE = (176, 224, 230, 255)
 YELLOW = (255, 255, 0)
 PURPLE = (153, 0, 153)
 
-menu_png = pygame.transform.scale(pygame.image.load('img/mode_setting.png'), (1000, 650))
-start_png = pygame.transform.scale(pygame.image.load('img/start.png'), (200, 50))
-start_act_png = pygame.transform.scale(pygame.image.load('img/start_.png'), (200, 50))
-pl1_png = pygame.transform.scale(pygame.image.load('img/1pl.png'), (200, 50))
-pl2_png = pygame.transform.scale(pygame.image.load('img/2pl.png'), (200, 50))
-pl1_act_png = pygame.transform.scale(pygame.image.load('img/1pl_.png'), (200, 50))
-pl2_act_png = pygame.transform.scale(pygame.image.load('img/2pl_.png'), (200, 50))
-exit_png = pygame.transform.scale(pygame.image.load('img/exit.png'), (200, 50))
-exit_act_png = pygame.transform.scale(pygame.image.load('img/exit_.png'), (200, 50))
-newgame_png = pygame.transform.scale(pygame.image.load('img/newgame.png'), (200, 50))
-newgame_act_png = pygame.transform.scale(pygame.image.load('img/newgame_.png'), (200, 50))
-bc_png = pygame.transform.scale(pygame.image.load('img/bc.png'), (200, 200))
-rock_png = pygame.transform.scale(pygame.image.load('img/Rock Pile.png'), (50, 50))
-rock1_png = pygame.transform.scale(pygame.image.load('img/Rock Pile1.png'), (50, 50))
-apple_img = pygame.transform.scale(pygame.image.load('img/apple.png'), (25, 25))
-ez_img = pygame.transform.scale(pygame.image.load('img/ez.png'), (400, 80))
-normal_img = pygame.transform.scale(pygame.image.load('img/norm.png'), (400, 80))
-hard_img = pygame.transform.scale(pygame.image.load('img/hard.png'), (400, 80))
-ez_act_img = pygame.transform.scale(pygame.image.load('img/ez_.png'), (400, 80))
-normal_act_img = pygame.transform.scale(pygame.image.load('img/norm_.png'), (400, 80))
-hard_act_img = pygame.transform.scale(pygame.image.load('img/hard_.png'), (400, 80))
-mode_img = pygame.transform.scale(pygame.image.load('img/mode.png'), (120, 20))
-single_img = pygame.transform.scale(pygame.image.load('img/single.png'), (150, 25))
-twoplayer_img = pygame.transform.scale(pygame.image.load('img/2player.png'), (150, 20))
-gamelvl_img = pygame.transform.scale(pygame.image.load('img/gamelvl.png'), (150, 35))
-gamelvl_ez_img = pygame.transform.scale(pygame.image.load('img/ezzz.png'), (70, 20))
-gamelvl_norm_img = pygame.transform.scale(pygame.image.load('img/normal.png'), (100, 20))
-gamelvl_hard_img = pygame.transform.scale(pygame.image.load('img/hardcore.png'), (100, 20))
-score_img = pygame.transform.scale(pygame.image.load('img/score.png'), (100, 20))
-scores_img = pygame.transform.scale(pygame.image.load('img/scores.png'), (100, 20))
-player1_img = pygame.transform.scale(pygame.image.load('img/player1.png'), (100, 20))
-player2_img = pygame.transform.scale(pygame.image.load('img/player2.png'), (100, 20))
-dead_img = pygame.transform.scale(pygame.image.load('img/dead.png'), (50, 20))
-save_img = pygame.transform.scale(pygame.image.load('img/save&quit.png'), (150, 35))
+menu_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/mode_setting.png'), (1000, 650))
+start_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/start.png'), (200, 50))
+start_act_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/start_.png'), (200, 50))
+pl1_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/1pl.png'), (200, 50))
+pl2_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/2pl.png'), (200, 50))
+pl1_act_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/1pl_.png'), (200, 50))
+pl2_act_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/2pl_.png'), (200, 50))
+exit_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/exit.png'), (200, 50))
+exit_act_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/exit_.png'), (200, 50))
+newgame_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/newgame.png'), (200, 50))
+newgame_act_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/newgame_.png'), (200, 50))
+bc_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/bc.png'), (200, 200))
+rock_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/Rock Pile.png'), (50, 50))
+rock1_png = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/Rock Pile1.png'), (50, 50))
+apple_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/apple.png'), (25, 25))
+ez_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/ez.png'), (400, 80))
+normal_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/norm.png'), (400, 80))
+hard_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/hard.png'), (400, 80))
+ez_act_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/ez_.png'), (400, 80))
+normal_act_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/norm_.png'), (400, 80))
+hard_act_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/hard_.png'), (400, 80))
+mode_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/mode.png'), (120, 20))
+single_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/single.png'), (150, 25))
+twoplayer_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/2player.png'), (150, 20))
+gamelvl_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/gamelvl.png'), (150, 35))
+gamelvl_ez_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/ezzz.png'), (70, 20))
+gamelvl_norm_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/normal.png'), (100, 20))
+gamelvl_hard_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/hardcore.png'), (100, 20))
+score_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/score.png'), (100, 20))
+scores_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/scores.png'), (100, 20))
+player1_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/player1.png'), (100, 20))
+player2_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/player2.png'), (100, 20))
+dead_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/dead.png'), (50, 20))
+save_img = pygame.transform.scale(pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/img/save&quit.png'), (150, 35))
 
 
 def main_menu():
     global game_started, start_btn, pl1_btn, pl2_btn, exit_btn, menu, newgame_btn
-    pygame.mixer_music.load('sounds/gta.mp3')
+    pygame.mixer_music.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/sounds/gta.mp3')
     pygame.mixer_music.play()
     game_started, pl1_mode, pl2_mode, menu = False, False, False, True
     screen.blit(menu_png, (0, 0))
@@ -282,14 +282,14 @@ class Snake:
 
 
 def uh_sound():
-    pygame.mixer.Sound('sounds/dead.mp3').play()
+    pygame.mixer.Sound('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/sounds/dead.mp3').play()
 
 
 def click_sound():
-    pygame.mixer.Sound('sounds\click.mp3').play()
+    pygame.mixer.Sound('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/sounds/click.mp3').play()
 
 def eat_sound():
-    pygame.mixer.Sound('sounds/eat.mp3').play()
+    pygame.mixer.Sound('/Users/bahauddin/Coding/pp2-22B030598/tsis9/snake/sounds/eat.mp3').play()
 
 
 global snake1, snake2, food, snakes
@@ -476,16 +476,16 @@ while running:
                 snake1.dx = 0
                 snake1.dy = d
 
-            if event.key == pygame.K_d and snake2.dx != -d:
+            if event.key == ord('d') and snake2.dx != -d:
                 snake2.dx = d
                 snake2.dy = 0
-            if event.key == pygame.K_a and snake2.dx != d:
+            if event.key == ord('a') and snake2.dx != d:
                 snake2.dx = -d
                 snake2.dy = 0
-            if event.key == pygame.K_w and snake2.dy != d:
+            if event.key == ord('w') and snake2.dy != d:
                 snake2.dx = 0
                 snake2.dy = -d
-            if event.key == pygame.K_s and snake2.dy != -d:
+            if event.key == ord('s') and snake2.dy != -d:
                 snake2.dx = 0
                 snake2.dy = d
 

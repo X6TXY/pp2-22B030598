@@ -51,20 +51,20 @@ pygame.mouse.set_visible(False)
 font = pygame.font.SysFont(None, 30)
 
 # sounds
-gameOverSound = pygame.mixer.Sound('music/crash.wav')
-pygame.mixer.music.load('music/car.wav')
-laugh = pygame.mixer.Sound('music/laugh.wav')
+gameOverSound = pygame.mixer.Sound('/Users/bahauddin/Coding/pp2-22B030598/tsis8/music/tsis8_music_crash.wav')
+pygame.mixer.music.load('/Users/bahauddin/Coding/pp2-22B030598/tsis8/music/tsis8_music_car.wav')
+laugh = pygame.mixer.Sound('/Users/bahauddin/Coding/pp2-22B030598/tsis8/music/tsis8_music_laugh.wav')
 
 
 # images
-playerImage = pygame.image.load('image/car1.png')
-car3 = pygame.image.load('image/car3.png')
-car4 = pygame.image.load('image/car4.png')
+playerImage = pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis8/image/car1.png')
+car3 = pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis8/image/car3.png')
+car4 = pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis8/image/car4.png')
 playerRect = playerImage.get_rect()
-baddieImage = pygame.image.load('image/car2.png')
+baddieImage = pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis8/image/car2.png')
 sample = [car3,car4,baddieImage]
-wallLeft = pygame.image.load('image/left.png')
-wallRight = pygame.image.load('image/right.png')
+wallLeft = pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis8/image/left.png')
+wallRight = pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis8/image/right.png')
 
 
 # "Start" screen
@@ -74,10 +74,10 @@ pygame.display.update()
 waitForPlayerToPressKey()
 zero=0
 if not os.path.exists("data/save.dat"):
-    f=open("data/save.dat",'w')
+    f=open("/Users/bahauddin/Coding/pp2-22B030598/tsis8/data/save.dat",'w')
     f.write(str(zero))
     f.close()   
-v=open("data/save.dat",'r')
+v=open("/Users/bahauddin/Coding/pp2-22B030598/tsis8/data/save.dat",'r')
 topScore = int(v.readline())
 v.close()
 while (count>0):
@@ -204,7 +204,7 @@ while (count>0):
         # Check if any of the car have hit the player.
         if playerHasHitBaddie(playerRect, baddies):
             if score > topScore:
-                g=open("data/save.dat",'w')
+                g=open("/Users/bahauddin/Coding/pp2-22B030598/tsis8/data/save.dat",'w')
                 g.write(str(score))
                 g.close()
                 topScore = score

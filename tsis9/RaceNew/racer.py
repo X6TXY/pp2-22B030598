@@ -13,10 +13,10 @@ W, H = 1000, 1000
 pg.display.set_caption("КРУТЫЕ ГОНКИ ИГРАТЬ ВМЕСТЕ 2 ИГРОКА")
 clock = pg.time.Clock()
 
-bgRoad = pg.image.load("bgRoad.png")
-#sharkIm = pg.image.load("shark.png")
-#rocketIm = pg.image.load("rocket.png")
-bombIm = pg.image.load("bomb.png")
+bgRoad = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/bgRoad.png")
+sharkIm = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/shark.png")
+rocketIm = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/rocket.png")
+bombIm = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/bomb.png")
 
 
 speed = 3
@@ -30,7 +30,7 @@ y = 20
 class Cherry(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pg.image.load("cherry.png")
+        self.image = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/cherry.png")
         self.rect = self.image.get_rect()
         self.speed = 10
     def move(self):
@@ -45,7 +45,7 @@ class Cherry(pg.sprite.Sprite):
 class Coin(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pg.image.load("coin.png")
+        self.image = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/coin.png")
         self.rect = self.image.get_rect()
         self.speed = 7
     def move(self):
@@ -59,7 +59,7 @@ class Coin(pg.sprite.Sprite):
 class Enemy(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pg.image.load("bomb.png")
+        self.image = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/bomb.png")
         self.rect = self.image.get_rect()
         self.rect.center = (random.randint(40, W-40), 220)
 
@@ -102,7 +102,7 @@ class Enemy(pg.sprite.Sprite):
 class Shark(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pg.image.load("shark.png")
+        self.image = pg.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/shark.png")
         self.rect = self.image.get_rect()
         self.rect.center = (500, 700)
 
@@ -141,7 +141,7 @@ group.add(rocket, shark, coin, cherry)
 speed_incr = pg.USEREVENT + 1
 pg.time.set_timer(speed_incr, 2000)
 
-pg.mixer.music.load("bgMusic.mp3")
+pg.mixer.music.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/RaceNew/bgMusic.mp3")
 pg.mixer.music.play()
 
 

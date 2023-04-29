@@ -50,7 +50,7 @@ def draw_line(screen, start, end, width, color):
 def save_image(Surface, name):
     file = open('exist_check.txt', 'r')
     f = file.read()
-    pygame.image.save(Surface ,'saved_images/' + name + str(int(f)) + '.png')
+    pygame.image.save(Surface ,'/Users/bahauddin/Coding/pp2-22B030598/tsis9/paint/saved_images/' + name + str(int(f)) + '.png')
     file = open('exist_check.txt', 'w')
     file.write(str(int(f) + 1))
     file.close()
@@ -58,7 +58,7 @@ def save_image(Surface, name):
 def main():
     screen = pygame.display.set_mode((1000, 700))
     pygame.display.set_caption('pain(t)')
-    icon = pygame.image.load('img/icon.png')
+    icon = pygame.image.load('/Users/bahauddin/Coding/pp2-22B030598/tsis9/paint/img/icon.png')
     pygame.display.set_icon(icon)
 
     pygame.draw.rect(screen, SHADOW, (900, 0, 900, 700))
@@ -78,10 +78,10 @@ def main():
     pygame.draw.line(screen, GREY, (910, 225), (990, 225), 2)
     pygame.draw.line(screen, GREY, (0, 697), (900, 697), 2)
 
-    brush_png = pygame.transform.scale(pygame.image.load("img/brush.png"), (20,20))
-    eraser_png = pygame.transform.scale(pygame.image.load("img/eraser.png"), (20,20))
-    clear_png = pygame.transform.scale(pygame.image.load("img/clear.png"), (30, 30))
-    save_png = pygame.transform.scale(pygame.image.load("img/save.png"), (98, 50))
+    brush_png = pygame.transform.scale(pygame.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/paint/img/brush.png"), (20,20))
+    eraser_png = pygame.transform.scale(pygame.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/paint/img/eraser.png"), (20,20))
+    clear_png = pygame.transform.scale(pygame.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/paint/img/clear.png"), (30, 30))
+    save_png = pygame.transform.scale(pygame.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/paint/img/save.png"), (98, 50))
 
     pygame.draw.rect(screen, BLACK, (918, 197, 25, 15), 2)
     pygame.draw.circle(screen, BLACK, (970, 205), 9, 2)
@@ -108,7 +108,7 @@ def main():
         screen.blit(sz_txt, (909, 298)) 
         pygame.draw.rect(screen, GREY, (910, 335, 80, 80), 2)
         screen.fill(WHITE, (912, 337, 77, 77))
-        sz_btn = pygame.transform.scale(pygame.image.load("img/up_down.png"), (25, 25))
+        sz_btn = pygame.transform.scale(pygame.image.load("/Users/bahauddin/Coding/pp2-22B030598/tsis9/paint/img/up_down.png"), (25, 25))
         button = screen.blit(sz_btn, (970, 300))
         pygame.display.flip()
 
